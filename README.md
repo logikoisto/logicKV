@@ -1,4 +1,8 @@
 # logicKV
 纯golang实现的分布式持久化KV数据库
 
-这个DB是一个学习型项目,无法生产级使用,是用来实验一些我从某些论文中学习到的新想法,因此这个DB有很多新奇的想法全当我个人的实验项目
+用来验证我从某些论文中得到的新思想的学习型项目
+
+1. 实现 raft 论文
+  * 我引入纯golang实现的KV存储引擎 [badger](!https://github.com/dgraph-io/badger) 
+
